@@ -37,7 +37,6 @@ body {
 .photo {
     width: 140px;
     height: 165px;
-    background-color: rgb(255, 255, 255);
     border: 2px solid black;
     border-radius: 10px;
     transition: color 0.3s ease, transform 0.3s ease;
@@ -491,63 +490,63 @@ body {
 }
 
 #box1 {
-    top: 20px;
-    left: 150px;
+    top: 15%;
+    left: 11%;
 }
 
 #box2 {
-    left: 255px;
-    top: 20px;
+    left: 18%;
+    top: 15%;
 }
 
 #box3 {
-    left: 360px;
-    top: 20px;
+    left: 25%;
+    top: 15%;
 }
 
 #box4 {
-    top: 20px;
-    left: 465px;
+    top: 15%;
+    left: 32%;
 }
 
 #box5 {
-    top: 20px;
-    left: 570px;
+    top: 15%;
+    left: 39%;
 }
 
 #box6 {
-    top: 20px;
-    left: 675px;
+    top: 15%;
+    left: 46%;
 }
 
 #box7 {
-    top: 20px;
-    left: 780px;
+    top: 15%;
+    left: 53%;
 }
 
 #box8 {
-    top: 20px;
-    left: 885px;
+    top: 15%;
+    left: 60%;
 }
 
 #box9 {
-    top: 20px;
-    left: 990px;
+    top: 15%;
+    left: 67%;
 }
 
 #box10 {
-    top: 20px;
-    left: 1095px;
+    top: 15%;
+    left: 74%;
 }
 
 #box11 {
-    top: 20px;
-    left: 1200px;
+    top: 15%;
+    left: 81%;
 }
 
 #box12 {
-    top: 20px;
-    left: 1305px;
+    top: 15%;
+    left: 88%;
 }
 
 .footer {
@@ -629,4 +628,178 @@ body {
 
 .vehiculo:hover::after, .deporte:hover::after {
     opacity: 1; /* Mostrar el texto cuando se rasca */
+}
+
+@media (max-width: 1475px) {
+    .datosPersonales p {
+        width: calc(33.33% - 10px);
+        margin-top: -15px;
+        font-size: 12px;
+    }
+
+    .infoPrincipal {
+        height: 135px;
+        width: 90%;
+        background: radial-gradient(circle, #8300e0, #48007b);
+        border-radius: 10px;
+        margin-left: 20px;
+        color: white;
+        font-family: 'Zilla Slab', serif;
+        padding-left: 30px;
+    }
+
+    .photo {
+        width: 120px;
+        height: 135px;
+        border: 2px solid black;
+        border-radius: 10px;
+        transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    .encabezado {
+        margin-top: 135px;
+        margin-left: 20px;
+        font-family: 'Zilla Slab', serif;
+        color: #8300e0;
+        font-size: 20px;
+    }
+
+    .bach, .dam, .daw, .ing {
+        width: 340px;
+        height: fit-content;
+        font-size: 12px;
+    }
+
+    .linea {
+        margin-top: -52px;
+    }
+
+    .lineaPrincipio, .lineaFinal {
+        margin-top: -30px;
+    }
+
+    .dam, .ing {
+        margin-top: 97px;
+    }
+
+    .encabezado3 {
+        margin-top: 70px;
+    }
+
+    .draggable {
+        width: 70px;
+        height: 70px;
+        font-size: 10px;
+    }
+
+    #box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10, #box11, #box12 {
+        top: 23%;
+    }
+
+    .vehiculo, .deporte {
+        height: 120px;
+    }
+
+    .vehiculo::after, .deporte::after {
+        padding-top: 9%;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1146px) {
+    .datosPersonales p {
+        width: calc(33.33% - 10px);
+        margin-top: -15px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1171px) {
+    .bach, .dam, .daw, .ing {
+        width: 300px;
+        height: fit-content;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1147px) {
+    .nombre {
+        font-size: 20px;
+    }
+
+    .infoPrincipal {
+        height: 135px;
+        width: 90%;
+        background: radial-gradient(circle, #8300e0, #48007b);
+        border-radius: 10px;
+        margin-left: 20px;
+        color: white;
+        font-family: 'Zilla Slab', serif;
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 1133px) {
+    .infoPrincipal {
+        height: 110px;
+        width: 90%;
+        background: radial-gradient(circle, #8300e0, #48007b);
+        border-radius: 10px;
+        margin-left: 20px;
+        color: white;
+        font-family: 'Zilla Slab', serif;
+        padding-left: 12px;
+    }
+
+    .datosPersonales p {
+        width: calc(33.33% - 10px);
+        margin-top: -15px;
+        font-size: 10px;
+    }
+
+    .expLaboral {
+        background: radial-gradient(circle, #8300e0, #48007b);
+        width: 97.5%;
+        height: fit-content;
+        border-radius: 10px;
+        color: white;
+        font-family: 'Zilla Slab', serif;
+        font-size: smaller;
+        transition: transform 0.5s ease;
+    }
+}
+
+@media (max-width: 1040px) {
+    .bach, .dam, .daw, .ing {
+        width: 250px;
+        height: fit-content;
+        font-size: 10px;
+    }
+
+    .photo {
+        width: 95px;
+        height: 110px;
+        border: 2px solid black;
+        border-radius: 10px;
+        transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    .draggable {
+        width: 60px;
+        height: 60px;
+        font-size: 8px;
+    }
+
+    .vehiculo::after, .deporte::after {
+        padding-top: 10%;
+        font-size: 10px;
+    }
+
+    .encabezado {
+        margin-top: 110px;
+        margin-left: 20px;
+        font-family: 'Zilla Slab', serif;
+        color: #8300e0;
+        font-size: 20px;
+    }
 }
