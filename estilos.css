@@ -741,7 +741,7 @@ body {
 
 @media (max-width: 1133px) {
     .infoPrincipal {
-        height: 110px;
+        height: fit-content;
         width: 90%;
         background: radial-gradient(circle, #8300e0, #48007b);
         border-radius: 10px;
