@@ -751,6 +751,14 @@ body {
         padding-left: 12px;
     }
 
+    .photo {
+        width: 95px;
+        height: 110px;
+        border: 2px solid black;
+        border-radius: 10px;
+        transition: color 0.3s ease, transform 0.3s ease;
+    }
+
     .datosPersonales p {
         width: calc(33.33% - 10px);
         margin-top: -15px;
