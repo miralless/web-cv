@@ -201,23 +201,6 @@ body {
     transition: border-color 0.5s ease;
 }
 
-.ing {
-    width: 425px;
-    height: 150px;
-    background: radial-gradient(circle, #8300e0, #48007b);
-    position: absolute;
-    left: 0;
-    margin-left: 69.5%;
-    top: 0;
-    margin-top: 147px;
-    color: white;
-    font-family: 'Zilla Slab', serif;
-    border-radius: 10px;
-    text-align: center;
-    border: 5px solid transparent;
-    transition: border-color 0.5s ease;
-}
-
 .lineaPrincipio {
     width: 5px;
     height: 20px;
@@ -296,24 +279,6 @@ body {
     transition: border-color 0.5s ease;
 }
 
-.fecha2025{
-	display: inline-block;
-	width: 50px;
-	height: 50px;
-	border-radius: 50%;
-    background: radial-gradient(circle, #8300e0, #48007b);
-	text-decoration: none;
-	color: white;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-    margin-top: -25px;
-    z-index: 10;
-    font-family: 'Zilla Slab', serif;
-    border: 5px solid transparent;
-    transition: border-color 0.5s ease;
-}
-
 .hov2021:hover {
     cursor: pointer;
 }
@@ -323,10 +288,6 @@ body {
 }
 
 .hov2024:hover {
-    cursor: pointer;
-}
-
-.hov2025:hover {
     cursor: pointer;
 }
 
@@ -664,7 +625,7 @@ body {
         font-size: 20px;
     }
 
-    .bach, .dam, .daw, .ing {
+    .bach, .dam, .daw {
         width: 340px;
         height: fit-content;
         font-size: 12px;
@@ -678,7 +639,7 @@ body {
         margin-top: -30px;
     }
 
-    .dam, .ing {
+    .dam {
         margin-top: 97px;
     }
 
@@ -715,7 +676,7 @@ body {
 }
 
 @media (max-width: 1171px) {
-    .bach, .dam, .daw, .ing {
+    .bach, .dam, .daw {
         width: 300px;
         height: fit-content;
         font-size: 12px;
@@ -778,7 +739,7 @@ body {
 }
 
 @media (max-width: 1040px) {
-    .bach, .dam, .daw, .ing {
+    .bach, .dam, .daw {
         width: 250px;
         height: fit-content;
         font-size: 10px;
