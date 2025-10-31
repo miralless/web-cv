@@ -66,6 +66,28 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('.daw').style.border = '5px solid transparent';
     });
 
+    // -------------------------------------------
+
+    document.querySelector('.fecha2025').addEventListener('mouseover', function() {
+        document.querySelector('.jav').style.border = '5px solid #d1a7e3';
+        document.querySelector('.fecha2025').style.border = '5px solid #d1a7e3';
+    });
+
+    document.querySelector('.fecha2025').addEventListener('mouseout', function() {
+        document.querySelector('.jav').style.border = '5px solid transparent';
+        document.querySelector('.fecha2025').style.border = '5px solid transparent';
+    });
+
+    document.querySelector('.jav').addEventListener('mouseover', function() {
+        document.querySelector('.fecha2025').style.border = '5px solid #d1a7e3';
+        document.querySelector('.jav').style.border = '5px solid #d1a7e3';
+    });
+
+    document.querySelector('.jav').addEventListener('mouseout', function() {
+        document.querySelector('.fecha2025').style.border = '5px solid transparent';
+        document.querySelector('.jav').style.border = '5px solid transparent';
+    });
+
     // COMPETENCIA DE IDIOMAS
 
     document.querySelectorAll('.nivelEspanol .a1').forEach(function(element) {
